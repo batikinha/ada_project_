@@ -39,7 +39,7 @@ body {
     text-align: center;
   }
   
-  section {
+  .geralsection {
     background-color: #8A71C9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -71,4 +71,29 @@ body {
       text-decoration: none;
       color: #99ffff;
       font-weight: 700;
+    }
+
+    .menu {
+      text-decoration-line:underline;
+      font: white; 
+      background-color: #e45dd2;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu li {
+      display: inline-block;
+      line-height: 2.5px;
+      margin: 0 50px;
+    }
+
+    .button {
+      background-color: #41f341;
+      border-radius: 3px;
+      border: 1px;
+      border-color: transparent;
+      padding-top: 2px;
+      padding-left: 20px;
+      padding-right: 20px;
+
     }
